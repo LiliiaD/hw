@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 500px;
+    background: black;
+    padding: 0 5px;
+}
+.orange {
+    width: 1000px;
+    height: 100px;
+    background: orange;
+}
+.red {
+    width: 200px;
+    height: 292px;
+    background: red;
+    float: left;
+}
+.green {
+    width: 300px;
+    height: 295px;
+    float: left;
+    background: green;
+}
+
+.blue {
+    width: 350px;
+    height: 295px;
+    background: blue;
+    float: left;
+}
+.white {
+    width: 3px;
+    height: 295px;
+    background: white;
+    float: right;
+}
+.orange-bottom {
+    float: left;
+    clear: both;
+}
