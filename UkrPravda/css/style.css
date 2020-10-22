@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul li {
+    list-style: none;
+}
+a, a:visited {
+    text-decoration: none;
+}
+body {
+    font-family: 'Fira Sans';
+}
+.nav-menu {
+    padding: 10px 0;
+}
+.nav-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+.nav-item > li > a {
+    margin: 0 10px;
+    color: #000000; 
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-top > li > a {
+    font-size: 11px;
+}
+.nav-item > li > a:hover {
+    color: #808080;
+}
+header {
+    background: #7e0019;
+    min-height: 87px;
+    padding: 14px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu-icon {
+    display: inline-block;
+    width: 25px;
+    height: 4px;
+    margin-right: 10px;
+    background: #ffffff;
+    position: relative;
+}
+.menu-icon:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 25px;
+    height: 4px;
+    background: #ffffff;
+}
+.menu-icon:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 25px;
+    height: 4px;
+    background: #ffffff;
+}
+.menu-all-item {
+    vertical-align: middle;
+}
+.header-title {
+    text-align: center;
+}
+.main-title {
+    font-size: 36px;
+}
+.main-subtitle {
+    font-size: 11px;
+    font-weight: 400;
+}
+.option-lang {
+    display: inline-block;
+}
+.option-item {
+    color: #ffffff;
+}
+.club-btn {
+    display: inline-block;
+    width:85px ;
+    padding: 0 8px;
+    margin-left: 10px;
+    line-height: 36px;
+    border: #fff 3px solid;
+    border-radius: 20px;
+    background: #b30c1d;
+}
+.btn-text {
+    color: #ffffff;
+}
+
+
